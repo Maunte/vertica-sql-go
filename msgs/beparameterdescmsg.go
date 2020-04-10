@@ -35,7 +35,7 @@ package msgs
 import (
 	"fmt"
 
-	"github.com/vertica/vertica-sql-go/common"
+	"github.com/Maunte/vertica-sql-go/common"
 )
 
 type customType struct {

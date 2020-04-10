@@ -46,10 +46,10 @@ import (
 	"strings"
 	"time"
 
-	"github.com/vertica/vertica-sql-go/common"
-	"github.com/vertica/vertica-sql-go/logger"
-	"github.com/vertica/vertica-sql-go/msgs"
-	"github.com/vertica/vertica-sql-go/parse"
+	"github.com/Maunte/vertica-sql-go/common"
+	"github.com/Maunte/vertica-sql-go/logger"
+	"github.com/Maunte/vertica-sql-go/msgs"
+	"github.com/Maunte/vertica-sql-go/parse"
 )
 
 var (

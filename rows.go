@@ -41,9 +41,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/vertica/vertica-sql-go/common"
-	"github.com/vertica/vertica-sql-go/msgs"
-	"github.com/vertica/vertica-sql-go/rowcache"
+	"github.com/Maunte/vertica-sql-go/common"
+	"github.com/Maunte/vertica-sql-go/msgs"
+	"github.com/Maunte/vertica-sql-go/rowcache"
 )
 
 type rowStore interface {

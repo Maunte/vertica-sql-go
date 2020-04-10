@@ -35,7 +35,7 @@ package vertigo
 import (
 	"testing"
 
-	"github.com/vertica/vertica-sql-go/logger"
+	"github.com/Maunte/vertica-sql-go/logger"
 )
 
 type LogMessage struct {
