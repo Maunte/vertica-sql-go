@@ -79,7 +79,7 @@ func (m *FEBindMsg) Flatten() ([]byte, byte) {
 			} else {
 				strVal = "0"
 			}
-		case sql.NullBool, sql.NullFloat64, sql.NullInt64, sql.NullString:
+		case nil, sql.NullBool, sql.NullFloat64, sql.NullInt64, sql.NullString:
 			buf.appendUint32(0xffffffff)
 			continue
 		case time.Time:
